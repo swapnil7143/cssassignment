@@ -1,0 +1,98 @@
+@media (max-width:576px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+  }
+  .dropdown{
+    display: block;
+  }
+    
+  .submenu {
+    display: none;
+  }
+  
+  .login {
+   display: none;
+  }
+  .hidebtn {
+    display: block;
+    background-color: greenyellow;
+    font-size: larger;
+  }    
+  .graph img {
+   width: 100%;
+  }
+ .middle form{
+  display: grid;
+  justify-content: center;
+ } 
+ input{
+  grid-row: inherit;
+justify-content: center;
+ }
+ label{
+  grid-row: inherit;
+ }
+
+}
+
+@media (min-width:576px) {
+
+}
+
+@media (min-width:768px) {
+    
+}
+
+@media (min-width:992px) {
+  .menu {
+    display: block;
+    justify-content:center;
+    
+  }
+  .logo 
+  {display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    
+  }
+  .submenu{
+    display: none;
+  }
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+.dropdown{
+  display: flex;
+  font-size: larger;
+  justify-content:center;
+  align-items: end;
+  
+}
+.graph img{
+  width: 100%;
+  padding: 10px;
+}
+.photo{
+  justify-content: center;
+
+
+}
+
+
+
+
+
+}
+
+@media (min-width:1200px) {}
+
+@media (min-width:1400px) {
+    /* Inherite from perenet side */
+}
